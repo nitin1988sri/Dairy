@@ -1,0 +1,20 @@
+{
+    "name": "diary/write",
+    "description": "Description of your package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "saurabh",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Diary\\": "src/"
+        }
+    }
+}
